@@ -24,12 +24,12 @@ class PyTest(TestCommand):
 
 
 setup(
-    name='digitalocean-api',
-    version='0.9.3b',
-    description='Python wrapper for Digital Ocean API v2',
-    author='Valery Lisay',
-    author_email='valery@lisay.ru',
-    url='https://github.com/valerylisay/digitalocean-api',
+    name='digitalocean-api-v2',
+    version='0.0.1',
+    description='Python3 wrapper for Digital Ocean API v2',
+    author='Gustav Johansson',
+    author_email='gustav@neer.se',
+    url='https://github.com/neerdoc/digitalocean-api',
     license='MIT',
     packages=find_packages(exclude=['tests']),
     install_requires=['requests>=2.2.1'],
@@ -40,7 +40,7 @@ setup(
         'Development Status :: 4 - Beta',
         'License :: OSI Approved :: MIT License',
         'Intended Audience :: Developers',
-        'Programming Language :: Python :: 2.7',
+        'Programming Language :: Python :: 3.7.6',
         'Topic :: Internet :: WWW/HTTP',
         'Topic :: Software Development :: Libraries :: Python Modules',
     ]

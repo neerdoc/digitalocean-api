@@ -1,9 +1,7 @@
 # coding: utf-8
 
-from __future__ import unicode_literals
-
 import json
-from urlparse import urljoin
+from urllib.parse import urljoin
 
 import requests
 from digitalocean.api.exceptions import (
